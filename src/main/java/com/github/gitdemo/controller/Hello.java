@@ -8,6 +8,10 @@ public class Hello {
 
     @GetMapping("hello")
     public String returnString(){
-        return "hello world  123";
+        return "hello world,learn svn + jenkins";
+    }
+
+    public static void main(String[] args) {
+
     }
 }
